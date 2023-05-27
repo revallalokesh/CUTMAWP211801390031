@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* background-color: black/; */
+    font-size: 16px;
+
+}
+
+header section button a {
+    text-decoration: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    /* padding:2vh; */
+}
+
+header section button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    height: 30vh;
+    width: 100vw;
+    font-size: 3vh;
+    background: url("/Sekhar/Online-shoping.jpg") no-repeat right, url("/Sekhar/Online\ -\ imges.jpg") no-repeat left, rgb(2, 18, 69) no-repeat;
+    background-size: 20vw 35vh, 20vw 35vh, 100vw 35vh;
+    color: white;
+    position: sticky;
+    /* position: fixed; If we Specifiy this as fixed then it will eork independent to any other elements in Window */
+}
+
+#clothShow1 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#clothShow1 img {
+    object-fit: cover;
+    height: 50em;
+    /* border-radius-bottom-left: 3em; */
+    border-bottom-left-radius:3em;
+    border-bottom-right-radius:3em;
+    object-fit:cover;
+    /* padding: 1.5em 1em 0 3em; */
+    width: 45em;
+}
+
+#clothShow2 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#clothShow3 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#clothShow4 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#clothShow5 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#clothShow6 {
+    height: 80em;
+    width: 50em;
+    margin: 2em;
+    /* margin-top:20em; */
+    background-color: rgb(58, 54, 54);
+}
+
+#card {
+    display: flex;
+    clear: both;
+    flex-direction: row;
+
+}
+footer{
+    height:50vh;
+    background-color:black;
+}
+
+#main-one {
+    height: 120vh;
+    background: whitesmoke;
+}
+
+header h1 {
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+
+
+    margin: auto;
+    font-size: 10vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header h1 img {
+    height: 15vh;
+}
+
+#search_Bar {
+    float: right;
+    margin-right: 2em;
+    margin-top: 1.5em;
+
+    /* position: relative; */
+    /* right:0; */
+    /* background-color: aqua; */
+}
+
+.class_seard {
+    background-color: red;
+    height: 10em;
+    /* margin-top:0.9em; */
+}
+
+input[type="button"]:hover {
+    background-color: black;
+    color: white;
+
+}
+
+input[type="button"] {
+
+    vertical-align: middle;
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.2em;
+
+}
+
+input[type="search"] {
+    display: inline-block;
+    vertical-align: middle;
+    height:3.6em;
+    padding: 1em;
+    padding-left:4em;
+    background-image:url("/Sekhar/SearchBar.jpeg") ;
+    background-position:1em;
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    font-size:37px;font-weight:bold;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    width: 20em;
+    transition:width 0.5s ease-in-out;
+}
+input[type="search"]:focus{
+    width:50em;
+}
+
+main section {
+    overflow: auto;
+    /* margin-top:10em; */
+}
+
+#footet{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    font-size:4em;
+    font-weight:bold;
+    left:5vw;
+margin-left:1vw;
+    top:9vh;
+}
+.one{
+    margin-left:1vw!important;
+}
+#footet a{
+    text-decoration:none;
+    margin-left:10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footet a:active{
+    color:pink;
+}
+#footet a:visited{
+    color:blue;
+}
+#footet a:hover{
+    color:yellow;
+}
+#footet a:link{
+    color:blue;
+}
+main div:hover {
+    box-shadow: 8px 5px 9px 7px black, -19px -3px 9px -9px black;
+    cursor: pointer;
+    height: 200em;
+
+    transform: scale(1.1, 1.1);
+    /* transform: skew(360deg); */
+    /* transform:rotate(360deg); */
+}
+
+main div {
+    transition: transform 1s;
+    height: 60em;
+}
+
+main div img {
+    height: 50em;
+    width: 50em;
+    /* boroneder:2px ridge black; */
+    border-bottom: 7px solid black;
+
+    object-fit: cover;
+}
+
+main div h1 {
+    text-align: center;
+    font-size: 8em;
+    font-weight: bold;
+    padding-top: 0.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+
+
+.btnhost {
+    position: fixed;
+}
+
+header span {
+    font-size: 15vh;
+}
+
+header section {
+    /* background-color:rgb(12, 144, 201); */
+    position: absolute;
+    left: 60%;
+
+    top: 75%;
+    /* font-weight:16px; */
+
+}
+
+/* main{
+    display:flex;
+    flex-direction:row;
+    height:200vh;
+    /* background-color: antiquewhite; */
+/* }  */
+header section button {
+    background-color: rgb(19, 110, 228);
+    border: none;
+    height: 2em;
+    transition: width 0.2s;
+    border-radius: 15px;
+    width: 7.9vw;
+    color: white;
+    /* position: fixed; */
+    font-weight: bold;
+    font-size: 5em;
+
+}
+
+header section button::after {
+    content: '\2192';
+    font-size: 3 vh;
+    /* display:none; */
+    opacity: 0;
+    /* transform:translateX(-50%); */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* .btn:hover::after  */
+header section button:hover::after {
+    opacity: 1;
+
+    /* transform:translateX(50%); */
+}
+
+header section button:hover {
+    width: 8vw;
+
+    height: 7vh;
+
+}
+
+nav ul {
+    padding-left: 80em;
+    padding-top: 0.5em;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    /* justify-content:space-between; */
+}
+
+nav ul li {
+    display: block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 6em;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    /* padding:0.5em,3em,0.5em,9em;
+     */
+    height: 2em;
+    width: 8em;
+    font-family: 'Merriweather', serif;
+}
+
+nav ul li:hover {
+    background-color: rgba(23, 218, 218, 0.646);
+    height: 8em;
+}
+
+nav ul li a:hover {
+
+
+    /* background-color: rgb(6, 61, 43); */
+    text-decoration: none;
+    color: brown;
+}
+
+button img {
+    display: none;
+    width: 1em;
+    transition: width 0.3s;
+    transform: translate(200px, -45px);
+
+}
+
+/* button::after {
+    content: "";
+    display: trb
+} */
+
+button:hover img {
+    display: block;
+    width: 2.5em;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+/* nav{
+    background-color: aquamarine;
+} */
+
+
+@media screen and (min-width:375px) and (max-width:400px) {
+    header {
+        background: url("/Sekhar/second-online.jpg") no-repeat right top, url("/Sekhar/second-two.jpg") no-repeat left top, rgb(9, 61, 3);
+        /* background-size: 30% 65%, 30% 65%, 1% 10%; */
+        background-size: 20vw 35vh, 20vw 35vh, 100vw 35vh;
+        /* font-size:10px; */
+    }
+
+
+    header h1 {
+        font-size: 2.5em;
+        color: white;
+        width: 4em;
+        position: relative;
+        /* top:10px; */
+        border: 2px solid red;
+        top: 0.2em;
+    }
+
+    header section {
+        position: absolute;
+
+        top: 40em;
+        display: block;
+
+        left: 40vw;
+        /* margin-bottom:20vh; */
+        border: 2px solid red;
+    }
+
+    header h1 img {
+        height: 6vh;
+    }
+
+    header section button {
+        height: 5Sem;
+        width: 15vw;
+        border-width: none;
+        font-size: 2vh;
+        /* transition: none; */
+    }
+
+    header section button::after {
+        content: '\2192';
+        font-size: 2vh;
+        /* display:none; */
+        opacity: 0;
+        /* transform:translateX(-50%); */
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    /* .btn:hover::after  */
+    header section button:hover::after {
+        opacity: 1;
+
+        /* transform:translateX(50%); */
+    }
+
+    header section button:hover {
+        width: 25vw;
+        padding: 0;
+        height: 5vh;
+
+    }
+    
+
+    header h1 span {
+        font-size: 1.5em;
+        /* Here the Parent of Span tag is h1 Since the h1 font-size is 3em so span's starting size is 3em */
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        /* margin:0 0 0 0; */
+
+        color: black;
+        justify-content: space-between;
+        /* justify-content:space-around; */
+        flex-direction: column;
+        height: 9em;
+
+
+    }
+
+    .flexone {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Merriweather', serif;
+    }
+
+
+    nav ul li a:hover {
+        color: pink;
+    }
+}
+
+/* @media screen and (min-resolution: 96dpi) and (max-width:1024px){
+    html{
+        font-size:5px;
+    }
+    
+} */
+@media only screen and (min-resolution: 192dpi) and (min-width:300px) and (max-width:500px) {
+    header section {
+        top: 60%;
+        left: 45%;
+        border: none;
+    }
+
+    header h1 {
+        border: none;
+    }
+
+    header h1 img {
+        height: 1em;
+
+    }
+
+    header section button {
+        border-radius: 1px;
+    }
+
+    header section button:hover {
+        transition: width 0.3ms ease-in-out;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width:205px) and (max-width:300px) {
+    header section {
+        top: 60%;
+    }
+
+    header section button {
+        border-radius: 10px;
+        outline: none;
+        border: none;
+
+    }
+}
+.Main-Bg-Mens{
+    background-color:antiquewhite;
+}
+#bgbackMens{
+    background-color:red;
+    height:6vh;
+    width:10vw;
+    margin:auto;
+    /* padding-top:2vh;
+    padding-left:4vw; */
+    font-size:3vh;
+    font-weight:bold;
+
+    padding-top:0.5vh;
+    padding-left:3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards{
+    display:flex;
+    flex-direction:row;
+    margin-left:2vw;
+}
+.id1{
+
+    height:80em;
+    width:40em;
+    margin:2em;
+    background-color: red;
+    /* margin-left:10vw; */
+    border:2px solid black;
+    /* padding:1em; */
+    /* padding:20px;; */
+    /* box-shadow:5px 5px 20px 4px black,-5px -5px 20px 4px black; */
+    
+}
+.id1:hover{
+        box-shadow:5px 5px 20px 4px black,-5px -5px 20px 4px black;
+/*  */
+}
+
+
+.id1 img{
+    height: 40em;
+    width:40em;
+    object-fit: cover;
+
+    /* object-fit:cover; */
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+
+    /* margin:20px; */
+
+}
+.id1 i{
+    font-size:3.5em;
+    color:yellow;
+}
+.id1 b{
+    color:white;
+    font-size:4em;
+    margin-right:0.4em;
+    margin-left:2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.id1 h1{
+    text-align:center;
+    font-size:4em;
+    color:white;
+    margin-top:0.4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.id1 h3{
+    text-align:center;
+    /* margin-left:1em; */
+    color:greenyellow;
+    font-size:6em;
+    margin-top:0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}

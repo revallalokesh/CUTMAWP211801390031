@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    form h1 {
+      font-size: 4em;
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {}
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) and (max-width) {
+      form {
+        height: 4k0em;
+        width: 50em;
+      }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) 
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+
+}
+*/
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+}
+*/
+
+
+    form {
+      position: relative;
+      margin: auto;
+      top: 20vh;
+      text-align: center;
+      background-image: url("/download.jpg");
+      background-size: 60em 40em;
+      background-repeat: no-repeat;
+      width: 40vw;
+      height: 65vh;
+      font-size: 2vh;
+      border-radius: 1em;
+      padding-top: 3vh;
+      animation-name: Form-Animate;
+    }
+
+    input {
+      background-color: transparent;
+      border-top: none;
+      border-left: none;
+      font-size: 1em;
+      padding:2vh;
+      border-right: none;
+      border-color: black;
+      border-width: 2px;
+      ;
+    }
+
+    input:focus {
+      outline: none;
+      border-top: none;
+      border-left: none;
+
+      font-size: 1.2em;
+      border-right: none;
+    }
+
+    input:focus::placeholder {
+      color: black;
+      font-weight: bold;
+      padding: 5px;
+    }
+
+    button {
+      padding: 4em;
+
+    }
+
+    button:hover {
+      transform: scale(1.2, 1.2);
+      box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+      background-color: red;
+
+    }
+    p{
+      font-weight:bold;
+      font-size:2vh;
+    }
+span a{
+  color:blue;
+}
+    body {
+      background-image:linear-gradient(to right,white,rgb(178, 169, 169));
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    ::placeholder {
+      color: black;
+      font-weight: bold;
+    }
+    
+
+  </style>
+</head>
+
+<body>
+  <form action="" method="post">
+    <h1 style="text-decoration:underline;">Log in</h1>
+    <br>
+    <input type="text" placeholder="Username...">
+    <br><br><br>
+    <input type="email" name="Email" id="Email" placeholder="Mail...">
+    <br><br><br>
+    <input type="password" name="password" id="password" placeholder="password">
+    <br><br><br>
+    <button style="background-color:white;border:none;border-radius:3px;font-size:2em;padding:0.4em">Login</button>
+    <br><br>
+    <p>Already have an Account <span><a href="/Sinup_Form.html">SignUp</a></span></p>
+
+  </form>
+</body>
+
+</html>
